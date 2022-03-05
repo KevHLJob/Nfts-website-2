@@ -364,3 +364,56 @@ color: #48bdf3;
     background: var(--dark-color);
     color: #fff;
 }
+
+.new-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, auto));
+    gap: 1.2rem;
+
+}
+
+.next-page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.next-page a{
+    background: #fff;
+    padding: 12px 20px ;
+    color: var(--light-color);
+    letter-spacing: 1px;
+    font-weight: 500;
+    border-radius: 2rem;
+}
+.next-page a:hover{
+    background: #452abb;
+    color: #fff;
+    transition: 0.3s al linear;
+}
+
+.footer-container{
+    background: #412ca0;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.mail{
+    font-size: 500;
+    color: white;
+    
+}
+
+.copyright p{
+    margin-left: 20px;
+}
+
+.copyright .bx{
+font-size: 25px;
+}
+
