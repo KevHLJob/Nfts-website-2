@@ -504,10 +504,10 @@ html::-webkit-scrollbar{
         right: 0.5rem;
     }
     .menu img{
-        width: 200px;
+        width: 215px;
     }
     .menu a{
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
     .section{
         padding: 3rem 0 2rem;
@@ -533,6 +533,7 @@ html::-webkit-scrollbar{
     }
     .copyright {
         align-content: center;
+        align-items: center;
     }
     
 }
